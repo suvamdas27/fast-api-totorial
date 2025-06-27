@@ -10,6 +10,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: workspace
+      run: mkdir /tmp && cd /tmp
+
+    - name: Permission
+      run: chmod -R 777 /tmp
+        
     - name: Checkout
       uses: actions/checkout@v2
 
