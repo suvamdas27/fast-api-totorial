@@ -11,10 +11,10 @@ jobs:
 
     steps:
     - name: workspace
-      run: mkdir /app && cd /app
+      run: mkdir app && cd app
 
     - name: Permission
-      run: chmod -R 777 /app
+      run: chmod -R 777 app
 
     - name: Checkout
       uses: actions/checkout@v2
