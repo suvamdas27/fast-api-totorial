@@ -1,0 +1,28 @@
+{
+    "u1": {
+        "1": {
+            "title": "First Post",
+            "content": "This is the content of the first post.",
+            "published": true,
+            "rating": null
+        },
+        "2": {
+            "title": "Second Post",
+            "content": "This is the content of the second post.",
+            "published": true,
+            "rating": null
+        },
+        "3": {
+            "title": "New post 3",
+            "content": "Content of new post 3",
+            "published": true,
+            "rating": null
+        },
+        "4": {
+            "title": "New post 4",
+            "content": "Content of new post 4",
+            "published": true,
+            "rating": null
+        }
+    }
+}
